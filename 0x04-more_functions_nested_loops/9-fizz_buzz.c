@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints or fizz or buzz or fizzBuzz
- * Return: returns 0
+ * Return: void
  */
+#include <stdio.h>
+
 int main(void)
 {
 	int num = 1;
