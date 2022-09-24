@@ -2,7 +2,7 @@
 
 /**
  * cap_string - turn string to capital letters
- * @s: string 
+ * @s: string
  * Return: address of s
  */
 char *cap_string(char *s)
