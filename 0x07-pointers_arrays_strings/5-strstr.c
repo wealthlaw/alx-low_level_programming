@@ -4,8 +4,7 @@
  * _strstr - finds a substring
  * @haystack: string to check for needle
  * @needle: substring to find in haystack
- *
- * Return: pointer to needle in haystack or NULL 
+ * Return: pointer to needle in haystack or NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
