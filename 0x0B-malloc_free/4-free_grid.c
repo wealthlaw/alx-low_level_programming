@@ -2,7 +2,7 @@
 
 /**
 * free_grid - frees a two dimensional array
-*@grid: memory block 
+*@grid: memory block
 *@height: height of the array
 *Return: void
 */
