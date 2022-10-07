@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - conantenates two strings
+ * string_nconcat - concatenates two strings.
  * @s1: first string
  * @s2: second string
- * @n: number of byte of second string
- * Return: pointer
+ * @n: number of bytes
+ * Return: char pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -16,17 +16,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		i = 0;
 	else
-{
-	for (i = 0; s2[i]; i++)
-		;
-}
+	{
+		for (i = 0; s1[i]; i++)
+			;
+	}
 	if (s2 == NULL)
-	j = 0;
+		j = 0;
 	else
-{
-	for (j = 0; s2[j]; j++)
-		;
-}
+	{
+		for (j = 0; s2[j]; j++)
+			;
+	}
 	if (j > n)
 		j = n;
 	s = malloc(sizeof(char) * (i + j + 1));
