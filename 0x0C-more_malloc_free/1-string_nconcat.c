@@ -14,14 +14,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *s;
 
 	if (s1 == NULL)
-		I = 0;
+		i = 0;
 	else
 {
 	for (i = 0; s2[i]; i++)
 		;
 }
 	if (s2 == NULL)
-	J = 0;
+	j = 0;
 	else
 {
 	for (j = 0; s2[j]; j++)
